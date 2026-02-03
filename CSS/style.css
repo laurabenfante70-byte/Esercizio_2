@@ -1,0 +1,320 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-color: rgb(253, 254, 255);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  width: 100%;
+  max-width: 100%;
+}
+.title {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 1.5vw;
+}
+.title h1 {
+  margin: auto 0;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  font-size: 5vw;
+  padding-top: 2vw;
+}
+.title hr {
+  border-top: 0.5vw;
+  height: 0.5vw;
+  color: #77b76b;
+  background-color: #77b76b;
+  max-width: 75vw;
+  margin-top: 0px;
+}
+.container1 {
+  display: flex;
+  max-width: 1200px;
+  margin: auto 3vw;
+  gap: 3vw;
+  padding-top: 2.5vw;
+}
+.container1 img {
+  width: 40vw;
+  padding-top: 3vw;
+}
+.paragrafo p {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: #2b2b2b;
+  text-align: left;
+  font-weight: 400;
+  font-size: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+}
+.paragrafo h2 {
+  margin: 0 auto;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  padding-top: 1vw;
+}
+.paragrafo hr {
+  border-top: 0.5vw;
+  height: 0.5vw;
+  color: #77b76b;
+  background-color: #77b76b;
+  max-width: 40vw;
+  margin-top: -5px;
+  margin: auto 0;
+}
+.separatore img {
+  width: 10vw;
+  margin: 0 auto;
+  padding-top: 5.5vw;
+}
+.container2 {
+  max-width: 1200px;
+  margin: auto 3vw;
+}
+.container2 img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 5vw;
+}
+.paragrafo2 p {
+  text-align: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 2vw;
+  color: #2b2b2b;
+}
+.separatore2 img {
+  width: 10vw;
+  margin: 0 auto;
+  padding-top: 5vw;
+}
+.container3 {
+  display: flex;
+  margin: auto 3vw;
+  max-width: 1200px;
+  gap: 3vw;
+  padding-top: 3vw;
+}
+.container3 img {
+  width: 250vw;
+  padding-bottom: 3vw;
+  padding-top: 4vw;
+}
+.container3 p {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 2vw;
+  color: #2b2b2b;
+}
+.container3 h2 {
+  margin: 0 auto;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
+  padding-top: 3vw;
+}
+.paragrafo3 hr {
+  border-top: 0.5vw;
+  height: 0.5vw;
+  color: #77b76b;
+  background-color: #77b76b;
+  max-width: 37vw;
+  margin-top: -5px;
+  margin: auto 0;
+}
+footer {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 5vw;
+  align-items: center;
+}
+.footertext {
+  align-items: center;
+}
+.footertext p {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2.5vw;
+  color: #f9f9f9;
+  position: absolute;
+  padding-top: 9vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 4vw;
+}
+.footertext h1 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2.5vw;
+  color: #f9f9f9;
+  position: absolute;
+  padding-top: 15vw;
+  text-align: right;
+  padding-left: 79vw;
+  padding-right: 3vw;
+}
+.footer img {
+  position: relative;
+}
+@media (max-width: 726px) {
+  main {
+    padding: 0 4vw;
+  }
+  .title h1 {
+    padding-top: 4vw;
+    font-size: 10.5vw;
+  }
+  .title hr {
+    max-width: 90vw;
+  }
+  .container1 {
+    display: block;
+  }
+  .container1 img,
+  .container2 img,
+  .container3 img {
+    width: 100vw;
+    height: 60vw;
+    object-fit: cover;
+  }
+  .paragrafo p,
+  .paragrafo2 p,
+  .paragrafo3 p {
+    font-size: 5vw;
+    text-align: justify;
+  }
+  .paragrafo h2,
+  .paragrafo3 h2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  hr,
+  h2 {
+    display: none;
+  }
+
+  .container3 {
+    flex-direction: column-reverse;
+  }
+  .paragrafo3 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0vw;
+  }
+  .container3 img {
+    padding-bottom: 0vw;
+  }
+  footer {
+    height: 50vw;
+  }
+  footer img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .footertext p {
+    font-size: 5vw;
+  }
+  .footertext p {
+    padding-top: 15vw;
+    padding-right: 4vw;
+  }
+  .footertext h1 {
+    padding-top: 30vw;
+    font-size: 4vw;
+  }
+  header {
+    display: none;
+  }
+}
